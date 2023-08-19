@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body{
-    background-color: #E6D860;
+    background-color: #73DEE6;
     height: 100vh;
     margin: 0;
 }
@@ -21,20 +21,26 @@ form{
     padding: 15px;
 }
 
+input, label{
+ margin: 5px;
+}
+
 input{
-    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
 }
 
 input[type="submit"]{
     margin-top: 15px;
-    background-color: #AD9E15;
+    background-color: #23a4ad77;
     border-radius: 15px;
     border-color: darkgrey;
     font-size: x-large;
 }
 
 input[type="submit"]:hover{
-    background-color: #E1CD1B;
+    background-color: #2DD5E0;
     cursor: pointer;
 }
 
@@ -44,4 +50,13 @@ input[type="submit"]:hover{
         width: 100%;
         border: none;
     }
+}
+
+
+/*----------------------------------*/
+
+.aceptado{
+    text-align: center;
+    font-size: x-large;
+    display: none;
 }
