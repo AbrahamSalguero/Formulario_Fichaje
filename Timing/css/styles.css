@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+body{
+    background-color: #E6D860;
+    height: 100vh;
+    margin: 0;
+}
 
 section{
+    max-width: 100%;
     display: flex;
     justify-content: center;
     font-family: 'Lato', sans-serif;
@@ -21,16 +27,17 @@ input{
 
 input[type="submit"]{
     margin-top: 15px;
-    background-color: transparent;
+    background-color: #AD9E15;
     border-radius: 15px;
     border-color: darkgrey;
+    font-size: x-large;
 }
 
 input[type="submit"]:hover{
-    background-color: darkorange;
+    background-color: #E1CD1B;
     cursor: pointer;
-    
 }
+
 
 @media screen and (max-width:550px) {
     form{
